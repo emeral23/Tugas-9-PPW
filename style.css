@@ -1,0 +1,89 @@
+/* Mengatur style umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container form login */
+.login-container {
+    background-color: yellowgreen;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Judul login */
+.login-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Label */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #555;
+}
+
+/* Input Teks & Password */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box; /* Tambahan biar padding gak ngerusak width */
+}
+
+/* Tombol Masuk */
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Biar tombolnya full selebar container */
+}
+
+/* Efek hover dan active pada tombol masuk */
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+/* Dashboard */
+.dashboard {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Tombol keluar */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Hover dan active untuk tombol keluar */
+.btn:hover {
+    background-color: #ff3333;
+}
+
+.btn:active {
+    background-color: #e62828;
+}
